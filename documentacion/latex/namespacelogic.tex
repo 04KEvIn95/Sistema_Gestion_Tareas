@@ -1,0 +1,102 @@
+\doxysection{logic Namespace Reference}
+\hypertarget{namespacelogic}{}\label{namespacelogic}\index{logic@{logic}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespacelogic_a64d72ab8b7c93ce23d1748bcfdb2906b}{inicializar}} (datos)
+\item 
+\doxymbox{\hyperlink{namespacelogic_ae73bc8412c3a707014d1cff2cb94db46}{obtener\+\_\+tareas}} ()
+\item 
+\doxymbox{\hyperlink{namespacelogic_a4296e5924e1babeb0a39ea3745664656}{agregar\+\_\+tarea}} (titulo, descripcion)
+\item 
+\doxymbox{\hyperlink{namespacelogic_a9cfb3b98378ee94a13ea6e060badb439}{editar\+\_\+tarea}} (indice, titulo, descripcion)
+\item 
+\doxymbox{\hyperlink{namespacelogic_a7cb7246e3ed2c1db138297d9412b1770}{eliminar\+\_\+tarea}} (indice)
+\item 
+\doxymbox{\hyperlink{namespacelogic_a0ba1b31299287f7eb77df18e767b631c}{cambiar\+\_\+estado}} (indice)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \doxymbox{\hyperlink{namespacelogic_a97f91b9e5ad2771eb791791423e57376}{tareas}} = \+[$\,$]\+
+\begin{DoxyCompactList}\small\item\em Almacena las tareas cargadas en memoria durante la ejecución. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{namespacelogic_afb8103b748bcca4ce33b17530c4c8cd6}{contador\+\_\+id}} = 1
+\begin{DoxyCompactList}\small\item\em Controla la generación automática de identificadores únicos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{namespacelogic_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacelogic_a4296e5924e1babeb0a39ea3745664656}\index{logic@{logic}!agregar\_tarea@{agregar\_tarea}}
+\index{agregar\_tarea@{agregar\_tarea}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{agregar\_tarea()}{agregar\_tarea()}}
+{\footnotesize\ttfamily \label{namespacelogic_a4296e5924e1babeb0a39ea3745664656} 
+logic.\+agregar\+\_\+tarea (\begin{DoxyParamCaption}\item[{}]{titulo}{, }\item[{}]{descripcion}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Registra una nueva tarea en el sistema.
+\end{DoxyVerb}
+ \Hypertarget{namespacelogic_a0ba1b31299287f7eb77df18e767b631c}\index{logic@{logic}!cambiar\_estado@{cambiar\_estado}}
+\index{cambiar\_estado@{cambiar\_estado}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{cambiar\_estado()}{cambiar\_estado()}}
+{\footnotesize\ttfamily \label{namespacelogic_a0ba1b31299287f7eb77df18e767b631c} 
+logic.\+cambiar\+\_\+estado (\begin{DoxyParamCaption}\item[{}]{indice}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Cambia el estado de una tarea entre pendiente y completada.
+\end{DoxyVerb}
+ \Hypertarget{namespacelogic_a9cfb3b98378ee94a13ea6e060badb439}\index{logic@{logic}!editar\_tarea@{editar\_tarea}}
+\index{editar\_tarea@{editar\_tarea}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{editar\_tarea()}{editar\_tarea()}}
+{\footnotesize\ttfamily \label{namespacelogic_a9cfb3b98378ee94a13ea6e060badb439} 
+logic.\+editar\+\_\+tarea (\begin{DoxyParamCaption}\item[{}]{indice}{, }\item[{}]{titulo}{, }\item[{}]{descripcion}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Modifica la información de una tarea existente.
+\end{DoxyVerb}
+ \Hypertarget{namespacelogic_a7cb7246e3ed2c1db138297d9412b1770}\index{logic@{logic}!eliminar\_tarea@{eliminar\_tarea}}
+\index{eliminar\_tarea@{eliminar\_tarea}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{eliminar\_tarea()}{eliminar\_tarea()}}
+{\footnotesize\ttfamily \label{namespacelogic_a7cb7246e3ed2c1db138297d9412b1770} 
+logic.\+eliminar\+\_\+tarea (\begin{DoxyParamCaption}\item[{}]{indice}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Elimina una tarea de la lista del sistema.
+\end{DoxyVerb}
+ \Hypertarget{namespacelogic_a64d72ab8b7c93ce23d1748bcfdb2906b}\index{logic@{logic}!inicializar@{inicializar}}
+\index{inicializar@{inicializar}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{inicializar()}{inicializar()}}
+{\footnotesize\ttfamily \label{namespacelogic_a64d72ab8b7c93ce23d1748bcfdb2906b} 
+logic.\+inicializar (\begin{DoxyParamCaption}\item[{}]{datos}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Inicializa el sistema cargando las tareas existentes.
+\end{DoxyVerb}
+ \Hypertarget{namespacelogic_ae73bc8412c3a707014d1cff2cb94db46}\index{logic@{logic}!obtener\_tareas@{obtener\_tareas}}
+\index{obtener\_tareas@{obtener\_tareas}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{obtener\_tareas()}{obtener\_tareas()}}
+{\footnotesize\ttfamily \label{namespacelogic_ae73bc8412c3a707014d1cff2cb94db46} 
+logic.\+obtener\+\_\+tareas (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Retorna la lista actual de tareas registradas.
+\end{DoxyVerb}
+ 
+
+\label{doc-var-members}
+\Hypertarget{namespacelogic_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacelogic_afb8103b748bcca4ce33b17530c4c8cd6}\index{logic@{logic}!contador\_id@{contador\_id}}
+\index{contador\_id@{contador\_id}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{contador\_id}{contador\_id}}
+{\footnotesize\ttfamily \label{namespacelogic_afb8103b748bcca4ce33b17530c4c8cd6} 
+int logic.\+contador\+\_\+id = 1}
+
+
+
+Controla la generación automática de identificadores únicos. 
+
+\Hypertarget{namespacelogic_a97f91b9e5ad2771eb791791423e57376}\index{logic@{logic}!tareas@{tareas}}
+\index{tareas@{tareas}!logic@{logic}}
+\doxysubsubsection{\texorpdfstring{tareas}{tareas}}
+{\footnotesize\ttfamily \label{namespacelogic_a97f91b9e5ad2771eb791791423e57376} 
+list logic.\+tareas = \+[$\,$]\+}
+
+
+
+Almacena las tareas cargadas en memoria durante la ejecución. 
+

@@ -1,0 +1,69 @@
+\doxysection{data Namespace Reference}
+\hypertarget{namespacedata}{}\label{namespacedata}\index{data@{data}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespacedata_a7de7d614a14b683890499d74372667aa}{guardar\+\_\+tareas}} (tareas)
+\item 
+\doxymbox{\hyperlink{namespacedata_aa8d989de09648cfe2eea73d294eb99a9}{cargar\+\_\+tareas}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespacedata_a456a7d2170348203c14397a28f34b9b0}{BASE\+\_\+\+DIR}}
+\begin{DoxyCompactList}\small\item\em Obtiene la carpeta donde se ejecuta la aplicación. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespacedata_a17d3e2b467777f8fa4ae63bfbc1a362e}{ARCHIVO}} = os.\+path.\+join(\doxymbox{\hyperlink{namespacedata_a456a7d2170348203c14397a28f34b9b0}{BASE\+\_\+\+DIR}}, "{}tareas.\+json"{})
+\begin{DoxyCompactList}\small\item\em Define la ruta completa del archivo donde se almacenan las tareas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{namespacedata_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacedata_aa8d989de09648cfe2eea73d294eb99a9}\index{data@{data}!cargar\_tareas@{cargar\_tareas}}
+\index{cargar\_tareas@{cargar\_tareas}!data@{data}}
+\doxysubsubsection{\texorpdfstring{cargar\_tareas()}{cargar\_tareas()}}
+{\footnotesize\ttfamily \label{namespacedata_aa8d989de09648cfe2eea73d294eb99a9} 
+data.\+cargar\+\_\+tareas (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Carga las tareas almacenadas previamente en el archivo JSON.
+\end{DoxyVerb}
+ \Hypertarget{namespacedata_a7de7d614a14b683890499d74372667aa}\index{data@{data}!guardar\_tareas@{guardar\_tareas}}
+\index{guardar\_tareas@{guardar\_tareas}!data@{data}}
+\doxysubsubsection{\texorpdfstring{guardar\_tareas()}{guardar\_tareas()}}
+{\footnotesize\ttfamily \label{namespacedata_a7de7d614a14b683890499d74372667aa} 
+data.\+guardar\+\_\+tareas (\begin{DoxyParamCaption}\item[{}]{tareas}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Guarda la lista de tareas en el archivo JSON del sistema.
+\end{DoxyVerb}
+ 
+
+\label{doc-var-members}
+\Hypertarget{namespacedata_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacedata_a17d3e2b467777f8fa4ae63bfbc1a362e}\index{data@{data}!ARCHIVO@{ARCHIVO}}
+\index{ARCHIVO@{ARCHIVO}!data@{data}}
+\doxysubsubsection{\texorpdfstring{ARCHIVO}{ARCHIVO}}
+{\footnotesize\ttfamily \label{namespacedata_a17d3e2b467777f8fa4ae63bfbc1a362e} 
+data.\+ARCHIVO = os.\+path.\+join(\doxymbox{\hyperlink{namespacedata_a456a7d2170348203c14397a28f34b9b0}{BASE\+\_\+\+DIR}}, "{}tareas.\+json"{})}
+
+
+
+Define la ruta completa del archivo donde se almacenan las tareas. 
+
+\Hypertarget{namespacedata_a456a7d2170348203c14397a28f34b9b0}\index{data@{data}!BASE\_DIR@{BASE\_DIR}}
+\index{BASE\_DIR@{BASE\_DIR}!data@{data}}
+\doxysubsubsection{\texorpdfstring{BASE\_DIR}{BASE\_DIR}}
+{\footnotesize\ttfamily \label{namespacedata_a456a7d2170348203c14397a28f34b9b0} 
+data.\+BASE\+\_\+\+DIR}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ os.path.dirname(}
+\DoxyCodeLine{00002\ \ \ \ \ sys.executable\ \textcolor{keywordflow}{if}\ getattr(sys,\ \textcolor{stringliteral}{'frozen'},\ \textcolor{keyword}{False})\ \textcolor{keywordflow}{else}\ \_\_file\_\_}
+\DoxyCodeLine{00003\ )}
+
+\end{DoxyCode}
+
+
+Obtiene la carpeta donde se ejecuta la aplicación. 
+

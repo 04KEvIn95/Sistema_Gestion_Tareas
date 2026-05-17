@@ -1,0 +1,40 @@
+\doxysection{logic.\+py File Reference}
+\hypertarget{logic_8py}{}\label{logic_8py}\index{logic.py@{logic.py}}
+
+
+Módulo de interfaz gráfica para el Sistema de Gestión de Tareas.  
+
+
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \doxymbox{\hyperlink{namespacelogic}{logic}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespacelogic_a64d72ab8b7c93ce23d1748bcfdb2906b}{logic.\+inicializar}} (datos)
+\item 
+\doxymbox{\hyperlink{namespacelogic_ae73bc8412c3a707014d1cff2cb94db46}{logic.\+obtener\+\_\+tareas}} ()
+\item 
+\doxymbox{\hyperlink{namespacelogic_a4296e5924e1babeb0a39ea3745664656}{logic.\+agregar\+\_\+tarea}} (titulo, descripcion)
+\item 
+\doxymbox{\hyperlink{namespacelogic_a9cfb3b98378ee94a13ea6e060badb439}{logic.\+editar\+\_\+tarea}} (indice, titulo, descripcion)
+\item 
+\doxymbox{\hyperlink{namespacelogic_a7cb7246e3ed2c1db138297d9412b1770}{logic.\+eliminar\+\_\+tarea}} (indice)
+\item 
+\doxymbox{\hyperlink{namespacelogic_a0ba1b31299287f7eb77df18e767b631c}{logic.\+cambiar\+\_\+estado}} (indice)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \doxymbox{\hyperlink{namespacelogic_a97f91b9e5ad2771eb791791423e57376}{logic.\+tareas}} = \+[$\,$]\+
+\begin{DoxyCompactList}\small\item\em Almacena las tareas cargadas en memoria durante la ejecución. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{namespacelogic_afb8103b748bcca4ce33b17530c4c8cd6}{logic.\+contador\+\_\+id}} = 1
+\begin{DoxyCompactList}\small\item\em Controla la generación automática de identificadores únicos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Módulo de interfaz gráfica para el Sistema de Gestión de Tareas. 
+
+Contiene la inicialización de la ventana de Tkinter, manejo de eventos de la UI y la interacción con el backend lógico. 
