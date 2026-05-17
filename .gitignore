@@ -2,7 +2,6 @@
 __pycache__/
 *.pyc
 
-# Archivos de compilación del ejecutable
+# Archivos de compilación (Mantenemos build bloqueado)
 build/
-dist/
 *.spec
